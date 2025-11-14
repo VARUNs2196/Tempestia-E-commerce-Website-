@@ -1,0 +1,111 @@
+/* General Styles */
+.landing-page {
+    min-height: 100vh;
+    background-color: #f9fafb;
+  }
+  
+  /* Header Section */
+  .header {
+    padding: 1.5rem;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #4f46e5;
+  }
+  
+  .login-button {
+    padding: 0.5rem 1rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 0.375rem;
+    cursor: pointer;
+  }
+  
+  /* Welcome Section */
+  .welcome-section {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-color: #e0e7ff;
+  }
+  
+  .welcome-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+  }
+  
+  .welcome-text {
+    font-size: 1.125rem;
+    color: #4b5563;
+    margin-bottom: 1.5rem;
+  }
+  
+  .shop-now-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
+    cursor: pointer;
+  }
+  
+  /* Featured Products Section */
+  .featured-products-section {
+    padding: 2.5rem 1rem;
+  }
+  
+  .featured-products-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  .loading-text {
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  /* Dark mode styles */
+.landing-page.dark {
+    background-color: #121212;
+    color: #f1f1f1;
+  }
+  
+  .landing-page.dark .welcome-section {
+    background-color: #1e1e2f;
+  }
+  
+  .landing-page.dark .welcome-text {
+    color: #ccc;
+  }
+  
+  .landing-page.dark .shop-now-button {
+    background-color: #6366f1;
+    color: white;
+  }
+  
+  .landing-page.dark .featured-products-title {
+    color: #e0e0e0;
+  }
+  
+  .landing-page.dark .loading-text {
+    color: #aaa;
+  }
+  
